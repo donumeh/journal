@@ -14,7 +14,7 @@ public class Journal
     {
         // Saving to file
 	
-	string[] lines = System.IO.File.ReadAllLines(filename);
+	string[] lines = System.IO.File.ReadAllLines(fileName);
 
 	foreach (string line in lines)
 	{
@@ -33,7 +33,7 @@ public class Journal
     public void SaveToFile(string fileName)
     {
         // Loading from file
-	using (StreamWriter outputFile = new StreamWriter(filename))
+	using (StreamWriter outputFile = new StreamWriter(fileName))
 	{
 		if (_entries.Count > 0)
 		{

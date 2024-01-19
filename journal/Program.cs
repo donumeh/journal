@@ -9,14 +9,15 @@ class Program
 
 		while (true)
 		{
-			int option;
+			string option;
 
-			Console.WriteLine("Select an entry (1-5:\n");
+			Console.WriteLine("Select an entry (1-5):\n");
 
 			Console.WriteLine("1. Write a new entry");
 			Console.WriteLine("2. Display the journal");
 			Console.WriteLine("3. Save journal to file");
 			Console.WriteLine("4. Load journal from file");
+			Console.WriteLine("5. Exit Program");
 
 			option = Console.ReadLine();
 
@@ -32,8 +33,12 @@ class Program
 					SaveEntriesToFile(journalName, filename);
 					break;
 				case "4":
+					LoadEntriesFromFile(journalName, filename);
 					break;
+				case "5":
+					return;
 				default:
+					Console.WriteLine("\nInvalid option");
 					break;
 			}
 		}
@@ -50,16 +55,28 @@ class Program
 		journalName.AddEntry(new_entry);
 	}
 
-	static void SaveEntriesToFile(Journal journalName, string filename)
+	static void SaveEntriesToFile(Journal journalName, string fileName)
 	{
-		if (filename == "")
+		if (fileName == "")
 		{
 			Console.Write("Enter your filename (without an extension): ");
-			filename = Console.ReadLine();
-			filename += ".txt";
+			fileName = Console.ReadLine();
+			fileName += ".txt";
 		}
 		
-		journalName.SaveToFile(filename);
+		journalName.SaveToFile(fileName);
+	}
+
+	static void LoadEntriesFromFile(Journal journalName, string fileName)
+	{
+		if (fileName == "")
+		{
+			Console.Write("Enter your filename: ");
+
+			fileName = Console.ReadLine();
+		}
+
+		journalName.LoadFromFile(fileName);
 	}
 }
 
