@@ -1,0 +1,15 @@
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.GeneratedMSBuildEditorConfig.editorconfig
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.AssemblyInfoInputs.cache
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.AssemblyInfo.cs
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.csproj.CoreCompileInputs.cache
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.sourcelink.json
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/bin/Debug/net8.0/journal
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/bin/Debug/net8.0/journal.deps.json
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/bin/Debug/net8.0/journal.runtimeconfig.json
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/bin/Debug/net8.0/journal.dll
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/bin/Debug/net8.0/journal.pdb
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.dll
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/refint/journal.dll
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.pdb
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/journal.genruntimeconfig.cache
+/home/akecam/Desktop/BYU Pathway/Level_2/Second_semester/Programming_with_classes/journal/journal/obj/Debug/net8.0/ref/journal.dll
